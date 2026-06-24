@@ -5,5 +5,7 @@ const input = document.querySelector(".input1")
 const reset = document.querySelector(".reset-btn")
 
 minus.addEventListener("click",()=>{
-   count.innertext=9 
+   const count2 = parseInt(count.innerText)
+    count.innerText = count2 + 1
+   
 })
