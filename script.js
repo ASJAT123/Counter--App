@@ -9,3 +9,10 @@ minus.addEventListener("click",()=>{
     count.innerText = count2 - 1
    
 })
+plus.addEventListener("click",()=>{
+   const count2 = parseInt(count.innerText)
+    count.innerText = count2 + 1
+   
+})
+
+
