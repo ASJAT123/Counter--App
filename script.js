@@ -6,16 +6,18 @@ const reset = document.querySelector(".reset-btn")
 
 minus.addEventListener("click",()=>{
    const count2 = parseInt(count.innerText)
-    count.innerText = count2 - 1
+    count.innerText = count2 - parseInt(input.value ||0)
    
 })
 plus.addEventListener("click",()=>{
    const count2 = parseInt(count.innerText)
-    count.innerText = count2 + 1
+    count.innerText = count2 + parseInt(input.value ||0  )   
+
    
 })
 reset.addEventListener("click",()=>{
-   input.innerText = parseInt(0)
+   count.innerText= 0
+
    
 })
 
