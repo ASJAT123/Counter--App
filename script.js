@@ -14,5 +14,9 @@ plus.addEventListener("click",()=>{
     count.innerText = count2 + 1
    
 })
+reset.addEventListener("click",()=>{
+   input.innerText = parseInt(0)
+   
+})
 
 
